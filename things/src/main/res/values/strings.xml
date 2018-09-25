@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GGButton</string>
+    <string name="click_me">CLICK ME!!</string>
+    <string name="click_amount">clicks!</string>
+    <string name="click_amount_list"> clicks!</string>
+    <string name="zero">0</string>
+    <string name="click_amount_list_pre">¡</string>
+    <string name="next_milestone">Next milestone</string>
+    <string name="current_milestone">Current milestone</string>
+</resources>
