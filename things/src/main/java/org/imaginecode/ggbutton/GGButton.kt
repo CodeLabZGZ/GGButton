@@ -83,8 +83,6 @@ class GGButton : Activity() {
 
                 runOnUiThread {
                     val loadingPanel = findViewById<RelativeLayout>(R.id.loadingPanel)
-                    counterView.text = amount.toString()
-                    
                     run forEach@ {
                         milestones.forEachIndexed { index, i ->
                             if (amount < i) {
@@ -94,8 +92,8 @@ class GGButton : Activity() {
                         }
                     }
 
+                    counterView.text = amount.toString()
                     counterView.visibility = View.VISIBLE
-
                     loadingPanel.visibility = View.GONE
                 }
                 runnable.handler.postDelayed(runnable, TIME)
